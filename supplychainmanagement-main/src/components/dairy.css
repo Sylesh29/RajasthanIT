@@ -1,0 +1,37 @@
+.dairy-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 100vh;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 10px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://m.economictimes.com/thumb/msid-95435628,width-1200,height-900,resizemode-4,imgsize-27834/two-fold-rise-in-dairy-exports-melts-butter-stocks-at-home.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.dairy-text {
+  width: 103px;
+  height: 59px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.dairy-container1 {
+  width: 100%;
+  height: 398px;
+  display: flex;
+  align-self: center;
+  margin-top: 300PX;
+  align-items: flex-start;
+  justify-content: center;
+}

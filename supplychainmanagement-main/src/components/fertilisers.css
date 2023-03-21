@@ -1,0 +1,44 @@
+.fertilisers-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 100vh;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 10px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url('http://cdn.shopify.com/s/files/1/0579/7924/0580/articles/shutterstock_301313486.jpg?v=1661870861');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fertilisers-text {
+  width: 193px;
+  font-size: 50px;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.fertilisers-container1 {
+  width: 100%;
+  height: 398px;
+  display: flex;
+  align-items: flex-start;
+}
+.fertilisers-container2 {
+  width: 100%;
+  height: 398px;
+  display: flex;
+  align-items: flex-start;
+}
